@@ -1,0 +1,81 @@
+# Inicializando git Local
+
+
+
+
+Primeiro confira se o git está instalado:
+
+
+
+
+```bash
+
+git --version
+
+```
+
+
+
+
+Configure o usuário:
+
+
+
+
+```bash
+
+git config --global user.name "seunome"
+
+git config --global user.email "seu@email.com"
+
+```
+
+
+
+
+cd Documents
+
+
+
+
+```bash
+
+mkdir exmeplotGit
+
+cd exemploGit
+
+git init
+
+```
+
+
+
+
+> Alguns comandos:
+
+
+
+
+```bash
+
+git status
+
+git add <filename ou . >
+
+git restore --staged <filename ou . >
+
+git branch <branchname>
+
+git checkout <branchname>
+
+git checkout -b <branchname>
+
+git commit -m "<description>"
+
+git pushgit branch -D <branchname>
+
+git fetch
+
+git pull
+
+```
